@@ -1,0 +1,26 @@
+cliente telnet, mando url y palabra y el servidor (cliente) usa protocolo HTTP para buscar en internet.
+Con socket.
+nc (ip) (puerto) // ahi me conecto
+despues mando url y palabra
+ no while (leido) xq es 1 vez
+//solo saco el while
+{busca.internet(url,pal)}
+
+
+int a;
+setsockopt(fd, SOL_SOCKET, SO_REUSEADDR, &a, sizeof a); //reuso el puerto
+antes del if (bind)
+
+
+
+servidor:
+
+hace un socket y conect(ip y puerto)
+puerto 80?
+TELNET (URL con www) 80
+GET /es/ua/fi.html
+//lo que esta en gris
+HTTP/1.0 // en el mismo renglon
+despues doble enter rapido!
+
+
